@@ -1,7 +1,7 @@
 <?php 
 
 
-$number = filter_input(INPUT_GET, "number"); // Vem parametr GET, ten v URL //
+$number = filter_input(INPUT_GET, "number");
 $min = filter_input(INPUT_GET, "min");
 $max = filter_input(INPUT_GET, "max"); 
 
